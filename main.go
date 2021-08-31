@@ -9,6 +9,7 @@ import (
 
 func main() {
 
+	//
 	chain := blockchain.InitBlockChain()
 
 	chain.AddBlock("first block after genesis")
